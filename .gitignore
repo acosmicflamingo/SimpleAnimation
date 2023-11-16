@@ -24,3 +24,5 @@ DerivedData
 
 Carthage
 Pods/
+
+/.swiftpm
