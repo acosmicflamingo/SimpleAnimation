@@ -420,7 +420,7 @@ import UIKit
   public func flash(repeatTimes: Float = 1.0) {
     let flash = CABasicAnimation(keyPath: "opacity")
     flash.duration = 0.24
-    flash.fromValue = 1
+    flash.fromValue = alpha
     flash.toValue = 0.0
     flash.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
     flash.autoreverses = true
